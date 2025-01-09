@@ -18,7 +18,7 @@ const RazorpayPayment = ({ setModal }) => {
   const navigate = useNavigate();
 
   const apiUrl = import.meta.env.VITE_BACKEND_URL;
-  const api = `${apiUrl}/dubai/add-workshop`;
+  const api = `${apiUrl}/dubai/add-workshop-free`;
 
   const validate = () => {
     const errors = {};
