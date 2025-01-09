@@ -57,7 +57,7 @@ export default function WorkshopCard({ setModalControl }) {
             Registration fee:{" "}
           </span>
           <span className="text-red-500 text-xl font-bold">0 AED </span>
-          <span className="text-red-500 text-sm mb-1 font-medium line-through">50 AED </span>
+          <span className="text-red-500 text-sm mb-1 font-medium line-through decoration-black decoration-[1.5px]"> 50 AED{"  "} </span>
         </p>
       </div>
       <div className="flex justify-center mb-6 md:mb-3">
