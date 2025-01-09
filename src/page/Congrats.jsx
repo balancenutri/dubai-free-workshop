@@ -12,8 +12,6 @@ function App() {
   const state = location.state;
   const navigate = useNavigate();
 
-  const apiUrl = import.meta.env.VITE_BACKEND_URL;
-
   useEffect(() => {
     if (!state?.workshop_id) {
       navigate("/", { replace: true, state: null });
@@ -34,7 +32,7 @@ function App() {
             </div>
           </div>
 
-          <h1 className="text-3xl font-bold text-indigo-600 bg-clip-text text-transparent mb-4">
+          <h1 className="text-3xl font-bold text-indigo-600 bg-clip-text mb-4">
             Thank You!
           </h1>
 
