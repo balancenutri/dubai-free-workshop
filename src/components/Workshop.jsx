@@ -35,15 +35,15 @@ export default function WorkshopCard({ setModalControl }) {
           src={IWDubai}
         />
       </div>
-      <div className="text-center mb-4">
+      <div className="text-center">
         <div className="rounded-lg bg-yellow-50 py-4 border-2 shadow-lg">
-          <p className="text-gray-800 font-inter text-[15px] font-medium px-4"
+          <p className="text-gray-800 font-inter text-[13px] font-medium px-4"
           >
-            <span className="text-gray-800 text-center font-inter text-base font-bold ">Meet Dietitian Khyati Rupani,</span>{" "}
+            <span className="text-gray-800 text-center font-inter text-[15px] font-bold ">Meet Dietitian Khyati Rupani,</span>{" "}
             Ex-Chief Dietitian at Lilavati Hospital. She is an Award- Winning
             Dietitian who has lost 40kg herself.
           </p>
-          <p className="text-gray-800 font-inter text-base font-bold underline decoration-solid underline-offset-auto decoration-from-font"
+          <p className="text-gray-800 font-inter text-[13px] font-bold underline decoration-solid underline-offset-auto decoration-from-font"
           >
             Trusted by 5,000+ clients in the UAE since 2014
           </p>
@@ -70,7 +70,7 @@ export default function WorkshopCard({ setModalControl }) {
               </svg>
             </div>
             <div>
-              <p className="text-gray-800 font-inter text-lg font-bold">
+              <p className="text-gray-800 font-inter text-base font-bold">
                 29th Jan, 10:30 am - 12:30 pm
               </p>
             </div>
@@ -102,14 +102,14 @@ export default function WorkshopCard({ setModalControl }) {
             </div>
           </div>
         </div>
-        <p className="text-black-600 my-4 md:my-3">
-          <span className="text-gray-800 font-inter text-xl font-medium">
+        <p className="text-black-600 my-3">
+          <span className="text-gray-800 font-inter text-lg font-medium">
             Registration Fee: {" "}
           </span>
-          <span className="text-red-500 font-inter text-xl font-bold">
+          <span className="text-red-500 font-inter text-lg font-bold">
             0 AED{" "}
           </span>
-          <span className="text-red-500 font-inter text-base font-bold line-through">
+          <span className="text-red-500 font-inter text-sm font-bold line-through">
             {" "}
             50 AED{"  "}{" "}
           </span>
