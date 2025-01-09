@@ -72,12 +72,6 @@ export default function WorkshopCard({ setModalControl }) {
         </button>
       </div>
       </div>
-      <div>
-        <p className="text-sm font-regular bg-orange-50 p-2 text-black text-center rounded-lg shadow-lg">
-          <span className="font-bold">50 AED </span>fully redeemable upon
-          enrolling in our online diet program.
-        </p>
-      </div>
       <p className="font-medium mt-2 text-black text-center">
         For more details contact Ritu:
       </p>
