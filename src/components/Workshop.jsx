@@ -60,8 +60,8 @@ export default function WorkshopCard({ setModalControl }) {
           <span className="text-red-500 text-sm mb-1 font-medium line-through decoration-black decoration-[1.5px]"> 50 AED{"  "} </span>
         </p>
       </div>
-      <div className="flex justify-center mb-6 md:mb-3">
-      <div className="flex justify-center mb-6 md:mb-3">
+      <div className="flex justify-center">
+      <div className="flex justify-center mb-3">
         <button
           className="bg-[#FFB412] text-black px-6 py-3 md:py-1 rounded-full transition-all duration-300 flex items-center 
       animate-scale-in-out"
