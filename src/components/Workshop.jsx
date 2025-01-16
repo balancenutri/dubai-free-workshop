@@ -1,7 +1,8 @@
 import React from "react";
 import BannerImage from "../assets/banner_image.png";
-import BnLogo from "../assets/bn_logo.png"
-import IWDubai from "../assets/iwdubai.png"
+import BnLogo from "../assets/bn_logo.png";
+import IWDubai from "../assets/iwdubai.png";
+import Burjuman from "../assets/burjuman.png";
 import { FiCalendar } from "react-icons/fi";
 import { GiPositionMarker } from "react-icons/gi";
 import { FaClipboardCheck, FaLocationDot } from "react-icons/fa6";
@@ -19,6 +20,7 @@ export default function WorkshopCard({ setModalControl }) {
           alt="Workshop Image"
           className="object-cover w-full h-full "
           height="400"
+          loading="lazy"
           src={BannerImage}
           width="600"
         />
@@ -26,29 +28,31 @@ export default function WorkshopCard({ setModalControl }) {
           alt="Workshop Image"
           className="absolute top-2 left-2 rounded-lg object-cover h-10 w-10 "
           height="40"
+          loading="lazy"
           src={BnLogo}
           width="40"
         />
         <img
           alt="Workshop Image"
+          loading="lazy"
           className="absolute top-2 right-2  rounded-lg object-cover h-10 w-10 "
           src={IWDubai}
         />
       </div>
       <div className="text-center">
         <div className="rounded-lg bg-yellow-50 py-4 border-2 shadow-lg">
-          <p className="text-gray-800 font-inter text-[13px] font-medium px-4"
-          >
-            <span className="text-gray-800 text-center font-inter text-[15px] font-bold ">Meet Dietitian Khyati Rupani,</span>{" "}
+          <p className="text-gray-800 font-inter text-[13px] font-medium px-4">
+            <span className="text-gray-800 text-center font-inter text-[15px] font-bold ">
+              Meet Dietitian Khyati Rupani,
+            </span>{" "}
             Ex-Chief Dietitian at Lilavati Hospital. She is an Award- Winning
             Dietitian who has lost 40kg herself.
           </p>
-          <p className="text-gray-800 font-inter text-[13px] font-bold underline decoration-solid underline-offset-auto decoration-from-font"
-          >
+          <p className="text-gray-800 font-inter text-[13px] sm:text-[15px] font-bold underline decoration-solid underline-offset-auto decoration-from-font">
             Trusted by 5,000+ clients in the UAE since 2014
           </p>
         </div>
-        <div className="flex flex-col items-start justify-between rounded-xl px-4 py-2 bg-white gap-y-2 mt-3 border-2 shadow-lg border-gray-600">
+        {/* <div className="flex flex-col items-start justify-between rounded-xl px-4 py-2 bg-white gap-y-2 mt-3 border-2 shadow-lg border-gray-600">
           <div className="flex items-center space-x-2">
             <div className="text-green-600 flex w-7">
               <svg
@@ -71,7 +75,7 @@ export default function WorkshopCard({ setModalControl }) {
             </div>
             <div>
               <p className="text-gray-800 font-inter text-base font-bold">
-                29th Jan, 10:30 am - 12:30 pm
+                30th Jan, 10:30 am - 02:00 pm
               </p>
             </div>
           </div>
@@ -97,12 +101,12 @@ export default function WorkshopCard({ setModalControl }) {
             </div>
             <div>
               <p className="md:text-base text-gray-800 font-semibold">
-                Dubai
+                B-Hub, Burjuman, Dubai
               </p>
             </div>
           </div>
-        </div>
-        <p className="text-black-600 my-3">
+        </div> */}
+        {/* <p className="text-black-600 my-3">
           <span className="text-gray-800 font-inter text-lg font-medium">
             Registration Fee: {" "}
           </span>
@@ -113,12 +117,38 @@ export default function WorkshopCard({ setModalControl }) {
             {" "}
             50 AED{"  "}{" "}
           </span>
-        </p>
+        </p> */}
+      </div>
+      <div>
+        <h2 className="text-center italic text-[22px] font-inter font-semibold mt-4 text-[#303030]">
+          Wellness Webinar & Workshop
+        </h2>
+        <div className="flex items-center justify-center py-1 gap-1">
+          <p className="text-[#00B6C1] font-medium font-inter">Dates: </p>
+          <p className="text-[#303030] font-medium font-inter">30th January, 2025</p>
+        </div>
+        <div className="flex items-center justify-center py-1 gap-1">
+          <p className="text-[#00B6C1] font-medium font-inter">Time: </p>
+          <p className="text-[#303030] font-medium font-inter">10:30 a.m. to 12:30 p.m.</p>
+        </div>
+        <div className="border-[#0095A8] border-2 mx-4 rounded-lg my-2 shadow-lg">
+          <div className="flex items-center justify-center py-1 gap-1">
+            <p className="text-[#00B6C1] font-medium font-inter">Venue Partner: </p>
+            <p className="text-[#303030] font-medium font-inter">'B Hub, Burjuman'</p>
+          </div>
+
+          <img
+            alt="Workshop Image"
+            loading="lazy"
+            className="h-6 mx-auto rounded-lg object-cover"
+            src={Burjuman}
+          />
+        </div>
       </div>
       <div className="flex justify-center">
-        <div className="flex justify-center mb-3">
+        <div className="flex justify-center m-3">
           <button
-            className="bg-yellow-500 rounded-lg text-gray-800 font-inter text-lg px-4 py-2 font-bold"
+            className="bg-[#E6A200] rounded-lg text-[#FFFFFF] font-inter text-xl px-4 py-1 font-semibold font-inter"
             onClick={() => setModalControl(true)}
           >
             Register Now
@@ -138,7 +168,9 @@ export default function WorkshopCard({ setModalControl }) {
         </Link>
       </p> */}
 
-      <p className="text-gray-800 text-center font-inter text-sm font-medium italic">Workshop - includes refreshments*</p>
+      <p className="text-gray-800 text-center font-inter text-sm font-medium italic">
+        Workshop - includes refreshments*
+      </p>
     </div>
     // </div>
   );

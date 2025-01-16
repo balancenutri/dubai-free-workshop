@@ -46,20 +46,20 @@ function App() {
                 <FiCalendar className="w-6 h-6" />
               </div>
               <div>
-                <p className="text-red-600 font-semibold">29th Jan, 10:30 AM</p>
+                <p className="text-red-600 font-semibold">30th Jan, 10:30 AM</p>
               </div>
             </div>
-            <div className="flex space-x-3">
+            <div className="flex item-center space-x-3">
               <div className="text-blue-600 text-2xl w-7">
                 <FaLocationDot className="w-5 h-5" />
               </div>
               <div>
                 <p className="md:text-base text-gray-800 font-semibold">
-                  Dubai
+                B Hub, Burjuman, Dubai
                 </p>
               </div>
             </div>
-            <div className="flex space-x-3">
+            <div className="flex item-center space-x-3">
               <div className="text-blue-600 text-2xl w-7">
                 <MdOutlineTopic className="w-6 h-6" />
               </div>
