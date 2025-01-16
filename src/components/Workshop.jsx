@@ -120,10 +120,10 @@ export default function WorkshopCard({ setModalControl }) {
         </p> */}
       </div>
       <div>
-        <h2 className="text-center italic text-[22px] font-inter font-semibold mt-4 text-[#303030]">
+        <h2 className="text-center italic text-[22px] font-inter font-semibold py-1.5 mt-4 text-[#303030]">
           Wellness Webinar & Workshop
         </h2>
-        <div className="flex items-center justify-center py-1 gap-1">
+        <div className="flex items-center justify-center gap-1">
           <p className="text-[#00B6C1] font-medium font-inter">Dates: </p>
           <p className="text-[#303030] font-medium font-inter">30th January, 2025</p>
         </div>
@@ -145,15 +145,13 @@ export default function WorkshopCard({ setModalControl }) {
           />
         </div>
       </div>
-      <div className="flex justify-center">
-        <div className="flex justify-center m-3">
-          <button
-            className="bg-[#E6A200] rounded-lg text-[#FFFFFF] font-inter text-xl px-4 py-1 font-semibold font-inter"
-            onClick={() => setModalControl(true)}
-          >
-            Register Now
-          </button>
-        </div>
+      <div className="flex justify-center m-3 mt-4">
+        <button
+          className="bg-[#E6A200] rounded-lg text-[#FFFFFF] font-inter text-xl px-4 pt-1 pb-2 font-semibold font-inter"
+          onClick={() => setModalControl(true)}
+        >
+          Register Now
+        </button>
       </div>
       {/* <p className="font-medium mt-2 text-black text-center">
         For more details contact Ritu:
